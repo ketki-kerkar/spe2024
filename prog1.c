@@ -3,6 +3,7 @@
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
+//This is program 1
 int main(){
 int v=symlink("newfile","destSL");
 if(v<0){
